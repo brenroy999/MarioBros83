@@ -36,12 +36,14 @@
 			// gameTimer
 			// 
 			this.gameTimer.Enabled = true;
-			this.gameTimer.Interval = 10;
+			this.gameTimer.Interval = 2;
 			this.gameTimer.Tick += new System.EventHandler(this.gameTimer_Tick);
 			// 
 			// labelDebug
 			// 
 			this.labelDebug.AutoSize = true;
+			this.labelDebug.BackColor = System.Drawing.Color.Transparent;
+			this.labelDebug.ForeColor = System.Drawing.Color.White;
 			this.labelDebug.Location = new System.Drawing.Point(2, 78);
 			this.labelDebug.Name = "labelDebug";
 			this.labelDebug.Size = new System.Drawing.Size(45, 13);
@@ -52,6 +54,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
 			this.ClientSize = new System.Drawing.Size(256, 224);
 			this.Controls.Add(this.labelDebug);

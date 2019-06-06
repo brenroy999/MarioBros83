@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace MarioBros83
 {
-	class Player
+	class Enemy
 	{
-		public int x, y, scale, width, height, jumpTime;
+		public int x, y, scale, width, height;	
 		public string direction;
 		Image sprite;
-		public bool jump = false, left = false, right = false, isGrounded = false;
+		public bool isGrounded = false, left = false, right = false;
 
-		public Player(int _x, int _y, int _scale, int _width, int _height, Image _sprite)
+		public Enemy(int _x, int _y, int _scale, int _width, int _height, Image _sprite)
 		{
 			x = _x;
 			y = _y;

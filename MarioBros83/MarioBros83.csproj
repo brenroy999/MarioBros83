@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Block.cs" />
+    <Compile Include="Enemy.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +97,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Block.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Block.dds" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

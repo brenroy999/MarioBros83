@@ -1447,12 +1447,8 @@
         Vx+wZt06l5usX6v+EH71AWvWrXO5yfq16nUvSZIkSZJ+u7/97f8DGwIjp/B6p0wAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="Block" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAIAAABLbSncAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMS40E0BoxAAAADpJREFUGFdjENj2
-        HxMxM3aBJP79QUEMDAxQCWQ5iChCAiIHF0WRQBZFSABFIQBFAioGAyg60BAzYxcAiQVSMplaMcEAAAAA
-        SUVORK5CYII=
-</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Block" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Block.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
